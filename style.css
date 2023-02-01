@@ -19,7 +19,7 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400px;
-    height: 800.885px;
+    height: 100%;
     line-height: 24px;
     overflow-wrap:break-word;
     text-size-adjust: 100%;
@@ -337,10 +337,8 @@ footer {
       }
       #calendar2{
         float: flex;
-        padding-right: 30%;
-        padding-left: 15%;
-        padding-bottom: 10%;
-        padding-top: 10%;
+        
+       
       }
 /**************************FIN CALENDARIO********************************/
     /****************************PREGUNTAS**********************************/
@@ -371,6 +369,10 @@ footer {
         padding: 40px;
         
     }
+
+    #imagen-preguntas{
+      height: 400px;
+    }
     
     
 /****************************FIN PREGUNTAS**********************************/
@@ -381,7 +383,10 @@ footer {
 display: flex;
 overflow-wrap: break-word;
 -ms-flex-align: center;
-
+text-align: center;
+align-items: center;
+width: 90%;
+padding: 5%;
 }
 .titulo-eventos {
   box-sizing: border-box;
@@ -410,7 +415,6 @@ ol li a h3{
   list-style: none;
   margin: 0;
   padding: 20px;
-  height: 900px;
   /*border: 3px solid black ;*/
 }
 
@@ -419,8 +423,7 @@ ol li a h3{
     color: var(--blanco);
     display: flex;
     flex-direction: column;
-    height: 350px;
-    width: 50%;
+    width: 90%;
     overflow-wrap: break-word;
     /*padding-left: 10%;
     padding-right: 10%;*/
@@ -444,11 +447,11 @@ ol , ul {
 }
 
 .eventos, .evento {
-  position: relative;
+  
   margin: 0;
 }
 .lista-eventos, .evento {
-  position: relative;
+  
   padding: 8px,10px,8px,80px;
   margin: 0;
   border-bottom: 1px solid;
@@ -459,7 +462,7 @@ ol , ul {
   padding-top: 19px;
 }
 .lista-eventos, .fecha-eventos {
-  position: absolute;
+  position: relative;
   height: auto;
   top: 0;
   left: 0;
@@ -487,20 +490,19 @@ ol , ul {
 
 /****************************TICKETS**********************************/
 #informacion{
-  float: right;
+  width: 800px;
+  position: flex;
+  margin: 10%;
   flex-direction: column;
-  width: 40%;
-  margin-right: 15%;
   
 }
 #localiza-ticket{
   background-color:  var(--turquesaoscuro);
   padding: 40px;
   color: #fff;
-  float: flex;
-  padding-bottom: 10%;
+  position: flex;
+  padding: 8%;
   
-  margin-left: 15%;
 }
 
 /****************************FIN TICKETS**********************************/
