@@ -329,16 +329,12 @@ footer {
     /**************************FIN FORMULARIO********************************/
 /**************************CALENDARIO********************************/
     #calendar {
-      float: flex;
-      padding-right: 30%;
-      padding-left: 30%;
-      padding-bottom: 10%;
-      padding-top: 10%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
       }
       #calendar2{
-        float: flex;
         
-       
       }
 /**************************FIN CALENDARIO********************************/
     /****************************PREGUNTAS**********************************/
@@ -381,16 +377,15 @@ footer {
 /****************************EVENTOS**********************************/
 #pagina-eventos {
 display: flex;
-overflow-wrap: break-word;
--ms-flex-align: center;
 text-align: center;
 align-items: center;
-width: 90%;
-padding: 5%;
+justify-content: center;
+width: 100%;
+background-image: url(https://lh3.googleusercontent.com/Qt46myGbOpDgEB0UWFe5gupYQgiQ-_fVvSz5G4T6F5ucUNzb3Ykw_CjSm0TIV5vk9KuR5AWR3CIxQ53RB8M3W5xq8CUYKvqFB8oQq7u0CH1J9w=w1900-h1070-n-rw-e365);
 }
 .titulo-eventos {
   box-sizing: border-box;
-  overflow-wrap: break-word;
+  justify-content: center;
   text-align: center;
 }
 ol li a h3{
@@ -413,30 +408,23 @@ ol li a h3{
   }
 .lista-eventos {
   list-style: none;
-  margin: 0;
-  padding: 20px;
-  /*border: 3px solid black ;*/
+  margin-bottom: 5rem;
+  margin: 10px;
 }
 
 .eventos {
   box-sizing: border-box;
     color: var(--blanco);
-    display: flex;
-    flex-direction: column;
-    width: 90%;
     overflow-wrap: break-word;
-    /*padding-left: 10%;
-    padding-right: 10%;*/
     color: black;
   }
  
 ol{
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 1rem;
+  margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  padding-inline-start: 200px;
 }
 li{
   display: list-item;
@@ -452,14 +440,14 @@ ol , ul {
 }
 .lista-eventos, .evento {
   
-  padding: 8px,10px,8px,80px;
-  margin: 0;
+  margin: 8px,10px,8px,80px;
+  
   border-bottom: 1px solid;
   background-color: var(--turquesaclaro);
 }
 .eventos, .fecha-eventos {
   width: 600px;
-  padding-top: 19px;
+  
 }
 .lista-eventos, .fecha-eventos {
   position: relative;
@@ -490,19 +478,18 @@ ol , ul {
 
 /****************************TICKETS**********************************/
 #informacion{
-  width: 800px;
-  position: flex;
-  margin: 10%;
-  flex-direction: column;
-  
+  /*width: 800px;*/
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 #localiza-ticket{
-  background-color:  var(--turquesaoscuro);
+  background-color:  var(--naranja);
   padding: 40px;
   color: #fff;
-  position: flex;
-  padding: 8%;
-  
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 5rem;
 }
 
 /****************************FIN TICKETS**********************************/
