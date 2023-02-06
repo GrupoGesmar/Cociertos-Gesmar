@@ -2,6 +2,7 @@
                   <a>
                     <time Class="fecha-eventos"></time>
                     <span Class="dia">fecha</span>
+                    <h2>hora</h2>
                     <h3>sala, Madrid, España</h3>
                     <h2>artista</h2>
                     <h3>CONCIERTO</h3>
