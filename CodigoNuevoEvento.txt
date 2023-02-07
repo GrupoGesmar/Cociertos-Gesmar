@@ -1,4 +1,4 @@
-<li Class="evento" >
+                <li Class="evento" >
                   <a>
                     <span Class="dataEvents">fecha</span>
                     <h2>hora</h2>
@@ -7,4 +7,4 @@
                     <h3>CONCIERTO</h3>
                   </a>
                   <a Class=“ boton-comprar” href="variablePasarelaPago" >COMPRAR</a>
-</li>
+                </li>
